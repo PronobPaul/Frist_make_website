@@ -1,0 +1,48 @@
+*{
+    color: #777777;
+} 
+body{
+    width: 90%;
+    margin:auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.s1{
+    display: flex;
+}
+.colorParple{
+    color: #8d56fe;
+}
+    
+.d1{
+    width:50%;
+}
+
+.d2{ 
+   width: 50%;
+   display: flex ;
+   justify-content: center;
+}
+.margin{
+    width: 50%;
+}
+.img1{
+   width: 50%;
+   border-radius: 50%;
+   
+}
+.btn{
+    color: #ffffff;
+    background-color: #8d56fe;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    
+}
+.head{
+    font-size: 38px;
+}
+.experience{
+
+    background-color: aquamarine;
+}
