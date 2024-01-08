@@ -11,6 +11,13 @@ body{
 }
 .colorParple{
     color: #8d56fe;
+
+    transition-duration: 0.6s;
+    transition-delay: .06s;
+    transition-property: all;
+}
+.colorParple:hover{
+    color: greenyellow;
 }
     
 .d1{
@@ -31,18 +38,29 @@ body{
    
 }
 .btn{
-    color: #ffffff;
+    margin: 0px 0px 0px 120px;
     background-color: #8d56fe;
     border-radius: 10px;
     border: none;
+    color: #ffffff;
     padding: 10px;
     font-size: 15px;
+    font-weight: 700; 
+    justify-content: center;
+
+    transition-delay: .06s;
+    transition-duration: 1s;
+    transition-property: all;
+    
+}
+.btn:hover{
+    background-color: greenyellow;
+    margin-right: -120px;
     
 }
 .head{
     font-size: 38px;
 }
 .experience{
-
     background-color: aquamarine;
 }
